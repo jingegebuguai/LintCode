@@ -1,4 +1,4 @@
-title: LintCode题解（二）
+title: LintCode题解（三）
 author: 惠惠
 tags:
   - 算法
@@ -174,7 +174,7 @@ date: 2017-09-04 10:14:00
      */
 	    public boolean isUgly(int num) {
 	        // write your code here
-	         if (num == 0) return false;
+	        if (num == 0) return false;
 	        else if (num == 1) return true;
 	        else if (num % 2 == 0)
 	            return isUgly(num / 2);
