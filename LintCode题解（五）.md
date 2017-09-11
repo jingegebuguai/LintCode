@@ -70,7 +70,7 @@
 
 ### 算法
 
-public class Solution {
+	public class Solution {
     /*
      * @param s: A string
      * @return: Whether the string is a valid palindrome
