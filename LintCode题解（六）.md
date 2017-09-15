@@ -169,37 +169,37 @@ google的题，哪道没有陷阱，第一次被坑了。
 
 ## 算法
 
-/**
- * Definition of TreeNode:
- * public class TreeNode {
- *     public int val;
- *     public TreeNode left, right;
- *     public TreeNode(int val) {
- *         this.val = val;
- *         this.left = this.right = null;
- *     }
- * }
- */ 
-public class Solution(){
-    /**
-     * @param nums: an integer array
-     * @return: a tree node
-     */
-	public TreeNode sortArrayToBST(int[] A){
-		if(A==null)
-			return null;
-		return bulidTree(A, 0, A.length-1);	
-	}
+	/**
+	 * Definition of TreeNode:
+	 * public class TreeNode {
+	 *     public int val;
+	 *     public TreeNode left, right;
+	 *     public TreeNode(int val) {
+	 *         this.val = val;
+	 *         this.left = this.right = null;
+	 *     }
+	 * }
+	 */ 
+	public class Solution(){
+	    /**
+	     * @param nums: an integer array
+	     * @return: a tree node
+	     */
+		public TreeNode sortArrayToBST(int[] A){
+			if(A==null)
+				return null;
+			return bulidTree(A, 0, A.length-1);	
+		}
 
-	public void buildTree(int[] A, int start, int end){
-		if(start>end)
-			return null;
-		int middle = (start+end)/2;
-		TreeNode root = new TreeNode(A[middle]);
-		A.left = buildTree(A, start, middle-1);
-		A.right = buildTree(A, middle+1, end); 	
+		public void buildTree(int[] A, int start, int end){
+			if(start>end)
+				return null;
+			int middle = (start+end)/2;
+			TreeNode root = new TreeNode(A[middle]);
+			A.left = buildTree(A, start, middle-1);
+			A.right = buildTree(A, middle+1, end); 	
+		}
 	}
-}
 
 
 ## 二进制求和
