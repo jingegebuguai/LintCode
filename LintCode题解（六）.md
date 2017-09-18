@@ -1,3 +1,12 @@
+title: LintCode题解(六)
+author: 惠惠
+tags:
+  - LintCode
+categories:
+  - 计算机
+date: 2017-09-17 10:14:00
+---
+
 ## 奇偶分割数组
 分割一个整数数组，使得奇数在前偶数在后。
 

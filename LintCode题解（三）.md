@@ -1,10 +1,10 @@
 title: LintCode题解（三）
 author: 惠惠
 tags:
-  - 算法
+  - LintCode
 categories:
   - 计算机
-date: 2017-09-04 10:14:00
+date: 2017-10-17 10:14:00
 ---
 
 ## 移动零

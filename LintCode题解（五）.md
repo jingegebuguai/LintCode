@@ -1,3 +1,12 @@
+title: LintCode题解（五）
+author: 惠惠
+tags:
+  - LintCode
+categories:
+  - 计算机
+date: 2017-10-17 10:14:00
+---
+
 ## 岛屿个数
 给一个01矩阵，求不同的岛屿的个数。
 

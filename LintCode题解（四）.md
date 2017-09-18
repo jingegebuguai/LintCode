@@ -1,7 +1,7 @@
-title: LintCode题解（二）
+title: LintCode题解（四）
 author: 惠惠
 tags:
-  - 算法
+  - LintCode
 categories:
   - 计算机
 date: 2017-09-06 10:14:00
