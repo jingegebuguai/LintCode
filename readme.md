@@ -15,3 +15,7 @@
 [奇偶分割数组、二进制中1个数、反转数组、加一、把排序数组转换为高度最小的二叉搜索树、二进制求和](https://github.com/jingegebuguai/LintCode/blob/master/LintCode%E9%A2%98%E8%A7%A3%EF%BC%88%E5%85%AD%EF%BC%89.md)
 
 [判断数独是否合法、平面列表、克隆二叉树、序号排列、链表插入排序](https://github.com/jingegebuguai/LintCode/blob/master/LintCode%E9%A2%98%E8%A7%A3%EF%BC%88%E4%B8%83%EF%BC%89.md)
+
+
+## 中等题
+[三角形计数、计算最大值、重复字串、二进制时间](https://github.com/jingegebuguai/LintCode/blob/master/LintCode%E9%A2%98%E8%A7%A3--%E4%B8%AD%E7%AD%89%E7%AF%87(1).md)
